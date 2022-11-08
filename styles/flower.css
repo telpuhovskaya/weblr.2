@@ -1,0 +1,45 @@
+.page {
+    display: flex;
+}
+
+.left-block {
+    flex: 45%;
+}
+.right-block {
+    flex: 55%;
+}
+
+.left-block__body__image > img {
+    width: 80%;
+    height:832px;
+}
+
+.flower-header {
+    font-size: 39px;
+}
+
+.flower-text {
+    font-size: 24px;
+    line-height: 32px;
+    margin-top: 3%;
+}
+
+.flower-header {
+    display: flex;
+}
+
+.flower-header-header {
+    flex: 90%;
+}
+
+.page__ficus li::marker{
+    color: red;
+}
+
+.page__cactus li::marker {
+    color: blue;
+}
+
+.page__sansieveriya li::marker {
+    color: green;
+}
